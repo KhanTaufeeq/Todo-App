@@ -1,0 +1,77 @@
+#root {
+  /* max-width: 1280px; */
+  width: 40%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.atask-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1em;
+  border-radius: 10px;
+  margin-bottom: 1vw;
+}
+.atask-div .btn-div{
+  width: 40%;
+  display:flex;
+  justify-content: space-between;
+}
+.input-div{
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    transition: border-color 0.25s;
+    margin-right: 2vw;
+    outline:none;
+}
+.input-div:focus{
+  /* border-color: #646cffaa; */
+  outline: 4px auto -webkit-focus-ring-color;
+}
+.tasks-div{
+  margin-top: 2vw;
+}
+
